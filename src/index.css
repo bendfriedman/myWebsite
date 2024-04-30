@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+/* <resetting default styling> */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+/* </resetting default styling> */
+
+/* <variables> */
+:root {
+  --main-bg-color: #181818;
+  --alt-bg-color: #232323;
+  --dark-bg-color: #0f0f0f;
+  --light-bg-color: #252525;
+
+  --main-font-color: white;
+  --form-font-color: white;
+  --light-font-color: white;
+  --dark-font-color: black;
+
+  --accent-color: orange;
+  --font-hover-color: var(--accent-color);
+  --box-border-color: #5a5a5a;
+  --box-shadow-color: #181818;
+}
+/* </variables> */
+
+/* <default styles> */
+* {
+  font-family: "Nobile", sans-serif;
+  color: var(--main-font-color);
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--dark-bg-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--alt-bg-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-color);
+}
+
+input,
+select,
+option,
+textarea,
+button {
+  color: var(--form-font-color);
+  caret-color: var(--accent-color);
+  background-color: var(--alt-bg-color);
+}
+/* </default styles> */
