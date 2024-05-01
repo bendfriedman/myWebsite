@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap");
 
 /* <resetting default styling> */
 * {
@@ -26,31 +26,36 @@ h5 {
 
 /* <variables> */
 :root {
-  --main-bg-color: #181818;
-  --alt-bg-color: #232323;
-  --dark-bg-color: #0f0f0f;
-  --light-bg-color: #252525;
+  --main-bg-clr: black;
+  --axis-bg-clr: rgb(219, 219, 219);
+  --dark-axis-bg-clr: rgb(168, 168, 168);
+  --dark-bg-clr: black;
+  --light-bg-clr: white;
 
-  --main-font-color: white;
-  --form-font-color: white;
-  --light-font-color: white;
-  --dark-font-color: black;
+  --main-font-clr: black;
+  --td-font-clr: black;
+  --td-header-font-clr: rgb(153, 51, 255);
+  --light-font-clr: white;
+  --dark-font-clr: black;
 
-  --accent-color: orange;
-  --font-hover-color: var(--accent-color);
-  --box-border-color: #5a5a5a;
-  --box-shadow-color: #181818;
+  --accent-clr: #0b7d4a;
+  --light-accent-clr: #15ab68;
+  --dark-accent-clr: #074c2d;
+  --font-hover-clr: var(--accent-color);
+  --table-grid-clr: rgb(205, 205, 205);
+  --td-border-clr: var(--td-header-font-clr);
 }
 /* </variables> */
 
 /* <default styles> */
 * {
-  font-family: "Nobile", sans-serif;
-  color: var(--main-font-color);
+  font-family: "Sawarabi Gothic", sans-serif;
+  color: var(--main-font-clr);
+  cursor: default;
 }
 
 body {
-  background-color: var(--main-bg-color);
+  background-color: var(--main-bg-clr);
 }
 
 ::-webkit-scrollbar {
@@ -59,26 +64,17 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: var(--dark-bg-color);
+  background: var(--dark-bg-clr);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--alt-bg-color);
+  background: var(--alt-bg-clr);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--accent-color);
+  background: var(--accent-clr);
 }
 
-input,
-select,
-option,
-textarea,
-button {
-  color: var(--form-font-color);
-  caret-color: var(--accent-color);
-  background-color: var(--alt-bg-color);
-}
 /* </default styles> */

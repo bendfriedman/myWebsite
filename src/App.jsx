@@ -6,10 +6,11 @@ import { NotFound } from "./pages/NotFound";
 function App() {
   return (
     <div id="app">
-      <Routes>
+      <SpreadsheetContainer />
+      {/* <Routes>
         <Route path="/" element={<SpreadsheetContainer />} />
         <Route path="*" element={<NotFound />} />
-      </Routes>
+      </Routes> */}
     </div>
   );
 }
