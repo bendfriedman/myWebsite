@@ -58,23 +58,4 @@ body {
   background-color: var(--main-bg-clr);
 }
 
-::-webkit-scrollbar {
-  width: 0.6rem;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: var(--dark-bg-clr);
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: var(--alt-bg-clr);
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: var(--accent-clr);
-}
-
 /* </default styles> */

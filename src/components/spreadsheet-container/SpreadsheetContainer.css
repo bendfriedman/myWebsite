@@ -3,9 +3,12 @@
   flex-direction: column;
   width: 90vw;
   max-height: 80vh;
-  min-height: 60vh;
-  /* height: 80vh; */
+
   background-color: white;
+}
+
+.table {
+  overflow: scroll;
 }
 
 .nav-bar {
@@ -91,6 +94,11 @@ i {
   border-right-color: var(--dark-axis-bg-clr);
 }
 
+table tr:first-child {
+  position: sticky;
+  top: 0;
+}
+
 .axis,
 th {
   background-color: var(--axis-bg-clr);
@@ -122,7 +130,6 @@ td:not(.axis) {
 }
 
 th {
-  height: 8%;
   color: var(--td-font-clr);
   border-left: 1px solid var(--table-grid-clr);
   border-right: 1px solid var(--table-grid-clr);
@@ -154,7 +161,6 @@ td:not(.axis):active {
 
 .pages {
   display: flex;
-  gap: 0.2rem;
   margin-left: 5%;
 }
 

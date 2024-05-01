@@ -7,10 +7,6 @@ function App() {
   return (
     <div id="app">
       <SpreadsheetContainer />
-      {/* <Routes>
-        <Route path="/" element={<SpreadsheetContainer />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes> */}
     </div>
   );
 }
