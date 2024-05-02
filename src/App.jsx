@@ -1,12 +1,17 @@
 import "./App.css";
-import { Route, Routes } from "react-router-dom";
-import { SpreadsheetContainer } from "./components/spreadsheet-container/SpreadsheetContainer";
-import { NotFound } from "./pages/NotFound";
+
+import { SpreadsheetContainer } from "./pages/spreadsheet-container/SpreadsheetContainer";
 
 function App() {
   return (
     <div id="app">
-      <SpreadsheetContainer />
+      <div className="header">Site under construction!</div>
+
+      <div className="content-container">
+        <SpreadsheetContainer />
+      </div>
+
+      <div className="footer">Benjamin Friedman © 2024</div>
     </div>
   );
 }

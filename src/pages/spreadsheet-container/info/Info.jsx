@@ -21,7 +21,7 @@ export const Info = () => {
           <tr>
             <td className="axis">1</td>
             <td></td>
-            <td className="td-header">Benjamin Friedman</td>
+            <td className="td-header">Benjamin-David Friedman</td>
             <td></td>
             <td></td>
             <td></td>
@@ -55,7 +55,7 @@ export const Info = () => {
             <td className="axis">4</td>
             <td></td>
             <td className="content td-header">First Name</td>
-            <td className="content">Benjamin</td>
+            <td className="content">Benjamin-David</td>
             <td></td>
             <td></td>
             <td></td>
@@ -127,7 +127,11 @@ export const Info = () => {
             <td className="axis">10</td>
             <td></td>
             <td className="content td-header">GitHub</td>
-            <td className="content">https://github.com</td>
+            <td className="content">
+              <Link to="https://github.com/bendfriedman" target="_blank">
+                github.com/bendfriedman
+              </Link>
+            </td>
             <td></td>
             <td></td>
             <td></td>
@@ -138,7 +142,14 @@ export const Info = () => {
             <td className="axis">11</td>
             <td></td>
             <td className="content td-header">LinkedIn</td>
-            <td className="content">https://linkedin.com</td>
+            <td className="content">
+              <Link
+                to="https://linkedin.com/in/benjamindfriedman/"
+                target="_blank"
+              >
+                linkedin.com/in/benjamindfriedman
+              </Link>
+            </td>
             <td></td>
             <td></td>
             <td></td>
@@ -149,7 +160,11 @@ export const Info = () => {
             <td className="axis">12</td>
             <td></td>
             <td className="content td-header">E-Mail</td>
-            <td className="content">benjamindfriedman@gmail.com</td>
+            <td className="content">
+              <Link to="mailto:benjamindfriedman@gmail.com">
+                benjamindfriedman@gmail.com
+              </Link>
+            </td>
             <td></td>
             <td></td>
             <td></td>
@@ -221,7 +236,7 @@ export const Info = () => {
           <Link to="/portfolio">
             <div className="page">Portfolio</div>
           </Link>
-          <Link to="/contact">
+          <Link to="/">
             <div className="page">Contact</div>
           </Link>
         </div>

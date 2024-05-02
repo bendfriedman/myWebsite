@@ -18,7 +18,7 @@ export const Portfolio = () => {
         <tr>
           <td className="axis">1</td>
           <td></td>
-          <td className="td-header">Portfolio</td>
+          <td className="td-header">Portfolio (under construction)</td>
           <td></td>
           <td></td>
           <td></td>
@@ -36,7 +36,7 @@ export const Portfolio = () => {
         <tr>
           <td className="axis">3</td>
           <td></td>
-          <td></td>
+          <td>COMING SOON!</td>
           <td></td>
           <td></td>
           <td></td>
@@ -141,7 +141,7 @@ export const Portfolio = () => {
           <Link to="/portfolio">
             <div className="page  active-page">Portfolio</div>
           </Link>
-          <Link to="/contact">
+          <Link to="/">
             <div className="page">Contact</div>
           </Link>
         </div>

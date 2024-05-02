@@ -1,11 +1,11 @@
-import { Info } from "../../pages/info/Info";
-import { Portfolio } from "../../pages/portfolio/Portfolio";
+import { Info } from "./info/Info";
+import { Portfolio } from "./portfolio/Portfolio";
 import "./SpreadsheetContainer.css";
 import { Route, Routes } from "react-router-dom";
 
 export const SpreadsheetContainer = () => {
   return (
-    <div className="spreadSheetContainer">
+    <div className="spreadsheet-container">
       <div className="nav-bar">
         <div className="nav-section">
           <div>

@@ -1,7 +1,18 @@
 #app {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  /* align-items: center; */
   flex-direction: column;
   height: 100vh;
+}
+
+.header,
+.footer {
+  color: var(--light-font-clr);
+  font-size: 0.8rem;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
 }

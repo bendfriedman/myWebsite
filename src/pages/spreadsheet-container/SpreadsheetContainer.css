@@ -1,4 +1,4 @@
-.spreadSheetContainer {
+.spreadsheet-container {
   display: flex;
   flex-direction: column;
   width: 90vw;
@@ -113,6 +113,8 @@ th:not(.triangle-box):hover {
 
 .axis {
   width: 1%;
+  position: sticky;
+  left: 0;
 }
 
 table {
